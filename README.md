@@ -52,6 +52,9 @@ follow the steps [here](https://www.raspberrypi.com/documentation/computers/gett
 ### additional packages installation
 #### n.i.n.a.
 #### siril
+1. clone the [repo](https://gitlab.com/free-astro/siril)
+2. install dependencies and make siril according to the description [here](https://siril.readthedocs.io/en/stable/installation/source.html). be aware that building siril from source potentially requires to build some dependencies (i.e. libXISF) in addition.
+3. good entry level tutorials can be found [here](https://siril.org/tutorials/tuto-scripts/)
 ## skywatcher az eq5 connection and control protocol set-up
 The eqmod driver is typically installed as third party component during indilib-installation. Test: start kstars. start ekos. create or change a profile: chose eqmod 'EQMod Mount' for mount. run the profile. if the indiserver is able to load the driver, then it is correctly installed.
 ## skywatcher 200p telescope mechanical assembly with camera and mount
